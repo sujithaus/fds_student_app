@@ -1,0 +1,6 @@
+# Ignore all migration files except __init__.py
+students/migrations/*.py
+!students/migrations/__init__.py
+
+# Ignore migration cache
+students/migrations/__pycache__/
